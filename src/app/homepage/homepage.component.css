@@ -1,0 +1,209 @@
+
+
+
+
+
+
+.gradient-text {
+    font-size: 3rem;
+    
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(255, 119, 255), rgb(254, 254, 254)); /* Gradient from purple to red */
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.5s linear;
+  }
+  .gradient-text:hover {
+    
+    transform: translateY(-25px);
+    
+  }
+
+  .hero-center {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-center {
+      grid-template-columns: 1fr; /* Change to a single column */
+      grid-template-rows: auto auto; /* Define rows for stacking */
+      margin: 40px;
+    }
+    .hero-img {
+        margin-top: 40px;
+    }
+}
+  
+  
+  .hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+  }
+  .hero-text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animated-text {
+    font-size: 2rem;
+    font-weight: bold;
+    animation: slideIn 3s ease-in-out infinite;
+    text-align: center;
+    color: #fff;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(0%);
+      opacity: 0.5;
+    }
+    50% {
+      transform: translateY(20%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 0.5;
+    }}
+
+    .reviews {
+        margin-top: 100px;
+    }
+
+    .why-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .why-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .why-checkmark {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-right: 10px;
+      background:  green;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+    .why-gradient {
+      font-size: 2rem;
+    }
+  
+  /* Card styles */
+
+  .card-section {
+    margin-top: 100px;
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-gap: 20px; */
+    
+  }
+
+  @media screen and (max-width: 768px) {
+
+    /* Adjust grid-template-columns for smaller screens */
+    .card-section {
+      grid-template-columns: 1fr;
+    }
+    .card {
+      margin: 20px 0;
+      
+
+
+    }
+    
+  }
+
+  .card {
+    box-shadow: 10px 0 10px rgba(50, 0, 50, 0.5);
+    transition: all 0.5s linear;
+    
+
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Portfolio styles */
+
+  .portfolio-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 0 10px rgba(50, 0, 50, 0.5);
+
+  }
+
+  .portfolio-section {
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+
+  }
+
+
+  @media screen and (max-width: 768px) {
+    /* Adjust grid-template-columns for smaller screens */
+   .portfolio-section {
+     grid-template-columns: 1fr;
+   }
+  }
+
+  .portfolio-item {
+    text-align: center;
+    
+  }
+  .portfolio-item img {
+    transition: all 0.5s linear;
+  }
+  .portfolio-item img:hover {
+    transform: scale(1.1);
+  }
+  .portfolio-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .page-link {
+    
+    text-decoration: none;
+    color: #fff;
+    
+    transition: all 0.5s linear;
+  }
+  .pck-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .reviews-section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }

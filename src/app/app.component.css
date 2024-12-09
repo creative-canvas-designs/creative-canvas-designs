@@ -1,0 +1,58 @@
+.purple {
+    color: rgb(195, 163, 195);
+}
+
+.loading {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.loading-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nav {
+    background-color: transparent !important;;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* modal */
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #3e8e41;
+  }

@@ -1,0 +1,24 @@
+.purple {
+    color: rgb(195, 163, 195);
+}
+
+.loading {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.loading-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nav {
+    background-color: transparent !important;;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+}
