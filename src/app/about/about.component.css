@@ -1,0 +1,54 @@
+.gradient-text {
+    font-size: 3rem;
+    
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(255, 119, 255), rgb(254, 254, 254)); /* Gradient from purple to red */
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.5s linear;
+  }
+  .gradient-text:hover {
+    
+    transform: translateY(-25px);
+    
+  }
+
+  .hero-center {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-center {
+      grid-template-columns: 1fr; /* Change to a single column */
+      grid-template-rows: auto auto; /* Define rows for stacking */
+      margin: 40px;
+    }
+    .hero-img {
+        margin-top: 40px;
+    }
+}
+  
+  
+  .hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  .hero-text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
