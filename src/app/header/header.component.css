@@ -19,6 +19,15 @@
 }
 
 .img-logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.nav-items-center {
+    display: flex;
+    align-items: center;
+    margin-right: 2ch;
+}
+.nav-link:hover {
+    color: blueviolet !important;
 }

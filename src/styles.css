@@ -11,6 +11,7 @@ body {
     /* Optional: Ensure smooth gradient transition */
     background-size: 100% 100%;
     background-attachment: fixed;
-    background-image: url('/assets/images/magenta-2703730_1280.jpg');
+    /* background-image: url('/assets/images/magenta-2703730_1280.jpg'); */
+    background: linear-gradient(to left, rgb(80, 80, 80), rgb(28, 28, 28));
   }
   
