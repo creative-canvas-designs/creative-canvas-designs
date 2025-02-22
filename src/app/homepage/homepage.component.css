@@ -216,5 +216,9 @@
     text-align: center !important;
   }
   
+  .packages-section {
+    height: 80%;
+    background-color: black;
+  }
 
   
