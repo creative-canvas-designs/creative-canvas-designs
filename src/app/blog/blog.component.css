@@ -1,0 +1,10 @@
+.blog {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.page-bg {
+    height: 100vh;
+    background-image: url('../../assets/images/maintenance.png');
+}

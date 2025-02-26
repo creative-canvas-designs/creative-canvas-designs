@@ -1,0 +1,43 @@
+body {
+    background: #121212;
+  }
+  
+  .contact-card {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  /* Dark input fields with visible placeholders */
+  .form-control {
+    background: #2c2c2c;
+    border: 1px solid #444;
+    color: #fff;
+    caret-color: #fff;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Light gray for visibility */
+  }
+  
+  .form-control:focus {
+    border-color: #6a0dad;
+    box-shadow: 0px 0px 10px rgba(106, 13, 173, 0.5);
+  }
+  
+  /* Gradient button with hover effect */
+  .btn-primary {
+    background: linear-gradient(90deg, #6a0dad, #9b30ff);
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #9b30ff, #6a0dad);
+  }

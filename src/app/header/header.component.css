@@ -1,33 +1,70 @@
 .purple {
     color: rgb(195, 163, 195);
-}
-
-.loading {
+  }
+  
+  .loading {
     font-size: 2rem;
     color: aliceblue;
-}
-
-.loading-center {
+  }
+  
+  .loading-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-.nav {
-    background-color: transparent !important;;
-}
-
-.img-logo {
+  }
+  
+  .nav {
+    background-color: transparent !important;
+  }
+  
+  .img-logo {
     width: 150px;
     height: 150px;
     object-fit: contain;
-}
-.nav-items-center {
+  }
+  
+  .navbar-nav {
     display: flex;
     align-items: center;
-    margin-right: 2ch;
-}
-.nav-link:hover {
+  }
+  
+  .nav-items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
     color: blueviolet !important;
-}
+  }
+  
+  .btn {
+    margin-left: 10px;
+  }
+  
+  .text-center {
+    align-items: center;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-collapse {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-toggler {
+      margin-left: auto;
+    }
+  
+    .img-logo {
+      width: 120px; /* Adjusted logo size for mobile */
+      height: 120px;
+    }
+  }
+  

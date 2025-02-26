@@ -1,0 +1,32 @@
+.card-section {
+    margin-top: 100px;
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 0 10px rgba(50, 0, 50, 0.5);
+    transition: all 0.5s linear;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
