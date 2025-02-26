@@ -26,13 +26,14 @@
 
   .hero-img {
       margin-top: 40px;
+      width: 75%;
   }
 }
 
 .hero-img {
-  width: 400px;
+  width: 75%;
   height: 400px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hero-text-center {
